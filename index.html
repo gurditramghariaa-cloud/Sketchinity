@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketchinity | Premium Art Supplies & Street Culture Gear</title>
+  <meta name="description" content="Shop Sketchinity for professional, student, and hobbyist art supplies. Heavy markers, premium sketchbooks, and archival paints for raw street art and fine illustration.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons UMD -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- CSS Layers -->
+  <link rel="stylesheet" href="css/variables.css?v=2">
+  <link rel="stylesheet" href="css/base.css?v=2">
+  <link rel="stylesheet" href="css/layout.css?v=2">
+  <link rel="stylesheet" href="css/components.css?v=2">
+  <link rel="stylesheet" href="css/pages.css?v=2">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header-root"></header>
+
+  <!-- Side Cart Drawer (Slide-in) -->
+  <div id="cart-drawer" class="cart-drawer">
+    <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+    <div class="cart-drawer-content">
+      <div class="cart-drawer-header">
+        <h3>YOUR STASH</h3>
+        <button id="close-cart-drawer" class="close-btn">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="cart-drawer-items" id="cart-drawer-items-list">
+        <!-- Dynamic content -->
+      </div>
+      <div class="cart-drawer-footer">
+        <div class="cart-drawer-total">
+          <span>Subtotal:</span>
+          <span id="cart-drawer-subtotal-val">$0.00</span>
+        </div>
+        <div class="cart-drawer-actions">
+          <a href="#cart" class="btn btn-secondary w-full text-center py-3" id="drawer-view-cart-btn">VIEW CART</a>
+          <a href="#checkout" class="btn btn-primary w-full text-center py-3" id="drawer-checkout-btn">GO TO CHECKOUT</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Viewport -->
+  <main id="main-root">
+    <!-- Pages dynamically inject their content here -->
+    <div class="loader-container" id="global-loader">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="footer-root"></footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- App Entry Script -->
+  <script type="module" src="js/app.js?v=2"></script>
+</body>
+</html>
