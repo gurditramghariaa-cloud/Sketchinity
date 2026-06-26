@@ -1,0 +1,62 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #6C4AB6;       /* Purple */
+  --color-primary-dark: #52358f;
+  --color-primary-light: #8D72E1;
+  --color-secondary: #FFFFFF;     /* White */
+  --color-accent: #FF8C42;        /* Orange */
+  --color-accent-dark: #e06d20;
+  --color-accent-light: #FFA671;
+  
+  /* Neutral Palette */
+  --color-dark: #121212;          /* Ink Black */
+  --color-dark-soft: #1E1E1E;     /* Dark Grey */
+  --color-gray-dark: #555555;
+  --color-gray-medium: #888888;
+  --color-gray-light: #F4F4F4;
+  --color-gray-border: #E0E0E0;
+  
+  /* Status Colors */
+  --color-success: #2EC4B6;
+  --color-error: #E71D36;
+  --color-warning: #FF9F1C;
+  
+  /* Typography */
+  --font-family-display: 'Outfit', sans-serif;
+  --font-family-body: 'Plus Jakarta Sans', sans-serif;
+  
+  /* Borders and Shadow System (Neo-Brutalism & Street Vibe) */
+  --border-thick: 3px solid var(--color-dark);
+  --border-thin: 1.5px solid var(--color-dark);
+  --border-radius-none: 0px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-full: 9999px;
+  
+  --shadow-flat: 2px 2px 0px 0px var(--color-dark);
+  --shadow-medium: 4px 4px 0px 0px var(--color-dark);
+  --shadow-large: 8px 8px 0px 0px var(--color-dark);
+  --shadow-purple: 4px 4px 0px 0px var(--color-primary);
+  --shadow-orange: 4px 4px 0px 0px var(--color-accent);
+  
+  --shadow-hover: 1px 1px 0px 0px var(--color-dark);
+  
+  /* Grid and Spacing Scales */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+  --spacing-section: 80px;
+
+  /* Global Animations */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-slow: 0.5s ease;
+  
+  /* Containers */
+  --container-max-width: 1200px;
+  --container-padding: 0 24px;
+}
